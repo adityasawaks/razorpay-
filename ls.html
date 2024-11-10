@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Position Static Example</title>
+  <style>
+    /* Style for the parent container */
+    .parent {
+      position: static; /* Static position (default) */
+      width: 300px;
+      height: 200px;
+      background-color: lightblue; /* Light blue background for parent */
+      margin: 20px;
+    }
+
+    /* Style for the child element */
+    .child {
+      position: static; /* Static position (default) */
+      width: 100px;
+      height: 50px;
+      background-color: coral; /* Coral color for child */
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="parent">
+    Parent (position: static)
+    <div class="child">
+      Child (position: static)
+    </div>
+  </div>
+
+</body>
+</html>
